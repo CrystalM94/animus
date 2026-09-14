@@ -1,0 +1,25 @@
+# WordPress core and third-party plugins are not vendored
+/wp-admin/
+/wp-includes/
+/wp-*.php
+/wp-content/plugins/*
+!/wp-content/plugins/animus-labs-core/
+/wp-content/themes/*
+!/wp-content/themes/animus-labs/
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/cache/
+/wp-content/languages/
+wp-config.php
+wp-config-local.php
+
+# Supplier source data (contains wholesale cost columns)
+/data/*.csv
+/data/*.xlsx
+
+# Local artefacts
+*.log
+*.sql
+*.sql.gz
+.DS_Store
+node_modules/
