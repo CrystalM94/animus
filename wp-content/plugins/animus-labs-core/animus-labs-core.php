@@ -26,6 +26,7 @@ require_once ANIMUS_CORE_DIR . 'includes/class-batches.php';
 require_once ANIMUS_CORE_DIR . 'includes/class-verification.php';
 require_once ANIMUS_CORE_DIR . 'includes/class-lot-tracking.php';
 require_once ANIMUS_CORE_DIR . 'includes/class-compliance.php';
+require_once ANIMUS_CORE_DIR . 'includes/class-coming-soon.php';
 
 register_activation_hook( __FILE__, 'animus_core_activate' );
 
@@ -56,5 +57,6 @@ add_action(
 		Animus_Verification::init();
 		Animus_Lot_Tracking::init();
 		Animus_Compliance::init();
+		Animus_Coming_Soon::init();
 	}
 );

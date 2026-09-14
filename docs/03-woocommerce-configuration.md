@@ -82,6 +82,11 @@ Set **WooCommerce → Settings → Emails** "From" address to a mailbox on your 
 - Checkout acknowledgement text and sub-text
 - Policy version string — recorded on every order alongside the acknowledgement, so bump it whenever the acknowledgement wording changes
 - Restricted-access gate: on/off, minimum age, title, body copy
+- Coming soon: on/off, heading, body copy
+
+### Coming soon (pre-launch)
+
+Enable **Coming soon** to show every logged-out visitor a branded holding page instead of the site. The page responds `503` with `noindex`, so search engines will not index the store before launch. Staff keep full access: `/wp-login.php` and `wp-admin` are never walled, and any logged-in user sees the real site, which makes it usable as a private staging mode on a public host. Turn it off to launch. Note this is independent of WooCommerce's own **Settings → Site visibility** coming-soon mode; use one or the other, not both.
 
 The acknowledgement is a required checkbox in the block checkout and is enforced server-side; an order cannot be created without it. Each order stores the acknowledgement flag, a UTC timestamp, the policy version, and a copy of the exact text shown, visible on the admin order screen.
 

@@ -21,6 +21,7 @@
 - [ ] Prices confirmed against the supplier catalog and your intended markup
 - [ ] Category assignments spot-checked
 - [ ] Restricted-access gate copy and minimum age confirmed
+- [ ] Coming-soon heading and copy set while the site is pre-launch, and **Coming soon** switched off at launch
 - [ ] Checkout acknowledgement text final, and the policy version string set to its launch value
 
 ## Commerce

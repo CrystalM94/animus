@@ -95,6 +95,8 @@ class Animus_Settings {
 		$opts = wp_parse_args( get_option( self::OPTION, array() ), animus_core_default_settings() );
 
 		$fields = array(
+			'coming_soon_title'  => array( __( 'Coming-soon page heading', 'animus-labs-core' ), 'text' ),
+			'coming_soon_body'   => array( __( 'Coming-soon page copy', 'animus-labs-core' ), 'textarea' ),
 			'topbar_notice'      => array( __( 'Header notice bar', 'animus-labs-core' ), 'text' ),
 			'ruo_notice'         => array( __( 'Research-use-only notice', 'animus-labs-core' ), 'textarea' ),
 			'checkout_ack'       => array( __( 'Checkout acknowledgement text', 'animus-labs-core' ), 'textarea' ),
@@ -124,6 +126,19 @@ class Animus_Settings {
 							</td>
 						</tr>
 					<?php endforeach; ?>
+
+					<tr>
+						<th scope="row"><?php esc_html_e( 'Coming soon', 'animus-labs-core' ); ?></th>
+						<td>
+							<label for="animus-coming-soon">
+								<input type="checkbox" id="animus-coming-soon" name="<?php echo esc_attr( self::OPTION ); ?>[coming_soon_enabled]" value="yes" <?php checked( 'yes', isset( $opts['coming_soon_enabled'] ) ? $opts['coming_soon_enabled'] : 'no' ); ?>>
+								<?php esc_html_e( 'Show a coming-soon page to all logged-out visitors', 'animus-labs-core' ); ?>
+							</label>
+							<p class="description">
+								<?php esc_html_e( 'Staff can still log in at /wp-login.php and use the full site. Heading and copy are editable above.', 'animus-labs-core' ); ?>
+							</p>
+						</td>
+					</tr>
 
 					<tr>
 						<th scope="row"><?php esc_html_e( 'Age / researcher gate', 'animus-labs-core' ); ?></th>
