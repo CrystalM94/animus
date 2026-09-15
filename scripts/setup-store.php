@@ -288,7 +288,7 @@ $sample_products = get_posts(
 );
 
 // Homepage features the core range — one flagship SKU per headline compound.
-$featured_skus = array( 'YPB.213', 'YPB.215', 'YPB.222', 'YPB.263', 'YPB.219', 'YPB.211', 'YPB.274' );
+$featured_skus = array( 'YPB.213', 'YPB.215', 'YPB.222', 'YPB.263', 'YPB.219', 'YPB.211', 'YPB.274', 'YPB.217', 'YPB.218' );
 foreach ( $featured_skus as $featured_sku ) {
 	$featured_id = wc_get_product_id_by_sku( $featured_sku );
 	$featured    = $featured_id ? wc_get_product( $featured_id ) : false;

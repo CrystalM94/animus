@@ -40,7 +40,7 @@ get_header();
 			<h2><?php esc_html_e( 'Featured compounds', 'animus-labs' ); ?></h2>
 			<a class="animus-link" href="<?php echo esc_url( wc_get_page_permalink( 'shop' ) ); ?>"><?php esc_html_e( 'View all &rarr;', 'animus-labs' ); ?></a>
 		</header>
-		<?php echo do_shortcode( '[products limit="6" columns="3" visibility="featured"]' ); ?>
+		<?php echo do_shortcode( '[products limit="9" columns="3" visibility="featured"]' ); ?>
 	</section>
 
 	<section class="animus-section animus-wrap">
