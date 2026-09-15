@@ -1,0 +1,27 @@
+/* Animus Labs admin styling */
+
+.animus-admin-cards { display: flex; gap: 16px; margin: 20px 0 30px; flex-wrap: wrap; }
+.animus-admin-card {
+	background: #fff; border: 1px solid #c3c4c7; border-left: 4px solid #c62828;
+	padding: 16px 20px; min-width: 180px;
+}
+.animus-admin-card strong { display: block; font-size: 28px; line-height: 1.2; }
+.animus-admin-card span { color: #646970; font-size: 13px; }
+
+.animus-pill {
+	display: inline-block; padding: 2px 9px; border-radius: 10px;
+	font-size: 11px; font-weight: 600; line-height: 1.7;
+}
+.animus-pill--ok { background: #e6f4ea; color: #14652c; }
+.animus-pill--pending { background: #fdf6e3; color: #8a6d00; }
+.animus-pill--current { background: #fbeaea; color: #a12121; }
+
+.animus-batch-form .required { color: #c62828; }
+.animus-doc-name { margin: 0 10px; color: #646970; font-style: italic; }
+.animus-doc-clear { color: #b32d2e; }
+
+.animus-qr { display: inline-block; background: #fff; padding: 8px; border: 1px solid #dcdcde; }
+.animus-qr img { display: block; }
+
+.animus-lot-col { width: 12%; }
+.animus-admin-ack { padding: 8px 0; }
