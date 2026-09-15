@@ -287,16 +287,26 @@ $sample_products = get_posts(
 	)
 );
 
+// Homepage features the core range — one flagship SKU per headline compound.
+$featured_skus = array( 'YPB.213', 'YPB.215', 'YPB.222', 'YPB.263', 'YPB.219', 'YPB.211', 'YPB.274' );
+foreach ( $featured_skus as $featured_sku ) {
+	$featured_id = wc_get_product_id_by_sku( $featured_sku );
+	$featured    = $featured_id ? wc_get_product( $featured_id ) : false;
+	if ( $featured && ! $featured->get_featured() ) {
+		$featured->set_featured( true );
+		$featured->save();
+	}
+}
+foreach ( wc_get_products( array( 'featured' => true, 'limit' => -1 ) ) as $other_featured ) {
+	if ( ! in_array( $other_featured->get_sku(), $featured_skus, true ) ) {
+		$other_featured->set_featured( false );
+		$other_featured->save();
+	}
+}
+
 $i = 0;
 foreach ( $sample_products as $product_id ) {
 	++$i;
-
-	// Homepage features the documented sample products.
-	$sample_product = wc_get_product( $product_id );
-	if ( $sample_product && ! $sample_product->get_featured() ) {
-		$sample_product->set_featured( true );
-		$sample_product->save();
-	}
 
 	$lot = sprintf( 'AL-%s-%04d', gmdate( 'Y' ), 1000 + $i );
 
