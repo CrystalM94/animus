@@ -328,6 +328,10 @@ a.animus-btn,
 .animus-pagehead--center .animus-pagehead__rule { margin-left: auto; margin-right: auto; }
 
 .animus-content { max-width: 72ch; }
+/* Commerce pages manage their own column layout — give them the full wrap. */
+.woocommerce-cart .animus-content,
+.woocommerce-checkout .animus-content,
+.woocommerce-account .animus-content { max-width: none; }
 .animus-content--center { margin: 0 auto; text-align: center; }
 .animus-content p, .animus-content li { color: var(--al-stone); }
 .animus-content h2 { margin-top: 2.2em; }
@@ -507,7 +511,7 @@ ul.products li.product-category img { margin: -1.3rem -1.3rem 1.1rem; width: cal
 	display: grid; grid-template-columns: repeat(2, 1fr); gap: 0;
 	border: 1px solid var(--al-line);
 }
-.animus-specs dt, .animus-specs dd { padding: 0.75rem 1.1rem; margin: 0; border-bottom: 1px solid var(--al-line); }
+.animus-specs dt, .animus-specs dd { padding: 0.75rem 1.1rem; margin: 0; border-bottom: 1px solid var(--al-line); min-width: 0; overflow-wrap: anywhere; }
 .animus-specs dt {
 	font-family: var(--al-mono); font-size: 0.68rem; letter-spacing: 0.14em;
 	text-transform: uppercase; color: var(--al-stone); background: var(--al-charcoal);
@@ -518,7 +522,7 @@ ul.products li.product-category img { margin: -1.3rem -1.3rem 1.1rem; width: cal
 /* product tabs */
 .woocommerce div.product .woocommerce-tabs { grid-column: 1 / -1; margin-top: 2rem; }
 .woocommerce div.product .woocommerce-tabs ul.tabs {
-	list-style: none; margin: 0; padding: 0; display: flex; gap: 0;
+	list-style: none; margin: 0; padding: 0; display: flex; gap: 0; flex-wrap: wrap;
 	border-bottom: 1px solid var(--al-line);
 }
 .woocommerce div.product .woocommerce-tabs ul.tabs::before { display: none; }
@@ -533,8 +537,10 @@ ul.products li.product-category img { margin: -1.3rem -1.3rem 1.1rem; width: cal
 	color: var(--al-stone); border-bottom: 2px solid transparent; margin-bottom: -1px;
 }
 .woocommerce div.product .woocommerce-tabs ul.tabs li.active a { color: var(--al-accent); border-bottom-color: var(--al-accent); }
-.woocommerce div.product .woocommerce-tabs .panel { padding: 2rem 0 0; color: var(--al-stone); }
+.woocommerce div.product .woocommerce-tabs .panel { padding: 2rem 0 0; color: var(--al-stone); min-width: 0; overflow-wrap: anywhere; }
 .woocommerce div.product .woocommerce-tabs .panel h2 { font-size: 1.4rem; }
+
+.woocommerce div.product .summary, .woocommerce div.product .woocommerce-tabs { min-width: 0; }
 
 /* related products */
 .related.products, .upcells.products, .cross-sells { grid-column: 1 / -1; margin-top: 3rem; }
