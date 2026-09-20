@@ -36,6 +36,7 @@ function animus_core_default_settings() {
 		'checkout_ack_sub'    => __( 'Your acknowledgement, timestamp, and the current policy version are recorded with this order.', 'animus-labs-core' ),
 		'policy_version'      => '1.0',
 		'verification_intro'  => __( 'Enter the lot number printed on your product label to view its documentation.', 'animus-labs-core' ),
+		'supplier_verify_url' => '',
 		'order_lot_note'      => __( 'The lot number shipped with each item is recorded permanently on this order.', 'animus-labs-core' ),
 		'coming_soon_enabled' => 'no',
 		'coming_soon_key'     => '',

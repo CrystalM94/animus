@@ -104,6 +104,7 @@ class Animus_Settings {
 			'checkout_ack_sub'   => array( __( 'Checkout acknowledgement sub-text', 'animus-labs-core' ), 'textarea' ),
 			'policy_version'     => array( __( 'Policy version (recorded on each order)', 'animus-labs-core' ), 'text' ),
 			'verification_intro' => array( __( 'Lot verification intro', 'animus-labs-core' ), 'textarea' ),
+			'supplier_verify_url' => array( __( 'Lab-partner verification URL (fallback link when a lot is not in our records)', 'animus-labs-core' ), 'text' ),
 			'order_lot_note'     => array( __( 'Order lot traceability note', 'animus-labs-core' ), 'textarea' ),
 		);
 		?>

@@ -262,6 +262,8 @@ class Animus_Batches {
 		$storage    = get_post_meta( $post->ID, '_animus_batch_storage', true );
 		$coa_id     = (int) get_post_meta( $post->ID, '_animus_batch_coa_id', true );
 		$sds_id     = (int) get_post_meta( $post->ID, '_animus_batch_sds_id', true );
+		$coa_url    = get_post_meta( $post->ID, '_animus_batch_coa_url', true );
+		$sds_url    = get_post_meta( $post->ID, '_animus_batch_sds_url', true );
 		$approved   = get_post_meta( $post->ID, '_animus_batch_approved', true );
 		$is_current = get_post_meta( $post->ID, '_animus_batch_is_current', true );
 		?>
@@ -340,6 +342,11 @@ class Animus_Batches {
 						<a href="<?php echo esc_url( wp_get_attachment_url( $coa_id ) ); ?>" target="_blank" rel="noopener"><?php esc_html_e( 'View', 'animus-labs-core' ); ?></a>
 						<button type="button" class="button-link animus-doc-clear" data-animus-clear="coa"><?php esc_html_e( 'Remove', 'animus-labs-core' ); ?></button>
 					<?php endif; ?>
+					<p style="margin-top:8px;">
+						<label for="animus_batch_coa_url"><?php esc_html_e( 'or external COA link', 'animus-labs-core' ); ?></label><br>
+						<input type="url" id="animus_batch_coa_url" name="animus_batch_coa_url" value="<?php echo esc_attr( $coa_url ); ?>" class="large-text code" placeholder="https://">
+						<span class="description"><?php esc_html_e( 'Used when no uploaded PDF is set — e.g. a supplier-hosted COA page.', 'animus-labs-core' ); ?></span>
+					</p>
 				</td>
 			</tr>
 			<tr>
@@ -354,6 +361,10 @@ class Animus_Batches {
 						<a href="<?php echo esc_url( wp_get_attachment_url( $sds_id ) ); ?>" target="_blank" rel="noopener"><?php esc_html_e( 'View', 'animus-labs-core' ); ?></a>
 						<button type="button" class="button-link animus-doc-clear" data-animus-clear="sds"><?php esc_html_e( 'Remove', 'animus-labs-core' ); ?></button>
 					<?php endif; ?>
+					<p style="margin-top:8px;">
+						<label for="animus_batch_sds_url"><?php esc_html_e( 'or external SDS link', 'animus-labs-core' ); ?></label><br>
+						<input type="url" id="animus_batch_sds_url" name="animus_batch_sds_url" value="<?php echo esc_attr( $sds_url ); ?>" class="large-text code" placeholder="https://">
+					</p>
 				</td>
 			</tr>
 			<tr>
@@ -442,6 +453,7 @@ class Animus_Batches {
 				$id = 0;
 			}
 			update_post_meta( $post_id, '_animus_batch_' . $doc . '_id', $id );
+			update_post_meta( $post_id, '_animus_batch_' . $doc . '_url', isset( $_POST[ 'animus_batch_' . $doc . '_url' ] ) ? esc_url_raw( wp_unslash( $_POST[ 'animus_batch_' . $doc . '_url' ] ) ) : '' );
 		}
 
 		$approved = ! empty( $_POST['animus_batch_approved'] ) ? 'yes' : 'no';
@@ -651,8 +663,8 @@ class Animus_Batches {
 			'method'     => (string) get_post_meta( $batch_id, '_animus_batch_method', true ),
 			'lab'        => (string) get_post_meta( $batch_id, '_animus_batch_lab', true ),
 			'storage'    => (string) get_post_meta( $batch_id, '_animus_batch_storage', true ),
-			'coa_url'    => $coa_id ? (string) wp_get_attachment_url( $coa_id ) : '',
-			'sds_url'    => $sds_id ? (string) wp_get_attachment_url( $sds_id ) : '',
+			'coa_url'    => $coa_id ? (string) wp_get_attachment_url( $coa_id ) : (string) get_post_meta( $batch_id, '_animus_batch_coa_url', true ),
+			'sds_url'    => $sds_id ? (string) wp_get_attachment_url( $sds_id ) : (string) get_post_meta( $batch_id, '_animus_batch_sds_url', true ),
 			'approved'   => 'yes' === get_post_meta( $batch_id, '_animus_batch_approved', true ),
 			'is_current' => 'yes' === get_post_meta( $batch_id, '_animus_batch_is_current', true ),
 		);

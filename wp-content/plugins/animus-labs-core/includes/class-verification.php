@@ -134,6 +134,14 @@ class Animus_Verification {
 				esc_html( $requested )
 			);
 			echo '<p>' . esc_html__( 'Check the lot number printed on your label. If it still does not resolve, contact us before using the material.', 'animus-labs-core' ) . '</p>';
+			$supplier_url = animus_core_setting( 'supplier_verify_url', '' );
+			if ( '' !== $supplier_url ) {
+				printf(
+					'<p><a class="animus-btn animus-btn--solid" href="%s" target="_blank" rel="noopener">%s</a></p>',
+					esc_url( $supplier_url ),
+					esc_html__( 'Verify with our lab partner', 'animus-labs-core' )
+				);
+			}
 			printf(
 				'<p><a class="animus-btn animus-btn--ghost" href="%s">%s</a></p>',
 				esc_url( home_url( '/contact/' ) ),
