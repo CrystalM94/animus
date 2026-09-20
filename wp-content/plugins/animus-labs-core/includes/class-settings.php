@@ -97,6 +97,7 @@ class Animus_Settings {
 		$fields = array(
 			'coming_soon_title'  => array( __( 'Coming-soon page heading', 'animus-labs-core' ), 'text' ),
 			'coming_soon_body'   => array( __( 'Coming-soon page copy', 'animus-labs-core' ), 'textarea' ),
+			'coming_soon_key'    => array( __( 'Coming-soon preview key (?animus_preview=KEY bypasses the wall)', 'animus-labs-core' ), 'text' ),
 			'topbar_notice'      => array( __( 'Header notice bar', 'animus-labs-core' ), 'text' ),
 			'ruo_notice'         => array( __( 'Research-use-only notice', 'animus-labs-core' ), 'textarea' ),
 			'checkout_ack'       => array( __( 'Checkout acknowledgement text', 'animus-labs-core' ), 'textarea' ),

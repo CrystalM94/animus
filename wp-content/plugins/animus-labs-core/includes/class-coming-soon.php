@@ -26,6 +26,9 @@ class Animus_Coming_Soon {
 		if ( is_user_logged_in() ) {
 			return false;
 		}
+		if ( self::has_preview_access() ) {
+			return false;
+		}
 		if ( is_admin() || wp_doing_ajax() || wp_doing_cron() || is_feed() || is_robots() ) {
 			return false;
 		}
@@ -42,6 +45,25 @@ class Animus_Coming_Soon {
 		}
 
 		return true;
+	}
+
+	/**
+	 * Preview-key bypass: ?animus_preview=<key> sets a cookie that unlocks
+	 * the site for that browser until it expires. Key is set in admin.
+	 */
+	private static function has_preview_access() {
+		$key = animus_core_setting( 'coming_soon_key', '' );
+		if ( '' === $key ) {
+			return false;
+		}
+		if ( isset( $_COOKIE['animus_preview'] ) && hash_equals( $key, sanitize_text_field( wp_unslash( $_COOKIE['animus_preview'] ) ) ) ) {
+			return true;
+		}
+		if ( isset( $_GET['animus_preview'] ) && hash_equals( $key, sanitize_text_field( wp_unslash( $_GET['animus_preview'] ) ) ) ) {
+			setcookie( 'animus_preview', $key, time() + MONTH_IN_SECONDS, COOKIEPATH, COOKIE_DOMAIN, is_ssl(), true );
+			return true;
+		}
+		return false;
 	}
 
 	/**

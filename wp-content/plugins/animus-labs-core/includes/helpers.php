@@ -38,6 +38,7 @@ function animus_core_default_settings() {
 		'verification_intro'  => __( 'Enter the lot number printed on your product label to view its documentation.', 'animus-labs-core' ),
 		'order_lot_note'      => __( 'The lot number shipped with each item is recorded permanently on this order.', 'animus-labs-core' ),
 		'coming_soon_enabled' => 'no',
+		'coming_soon_key'     => '',
 		'coming_soon_title'   => __( 'Animus Labs is coming soon', 'animus-labs-core' ),
 		'coming_soon_body'    => __( 'Documented research compounds with lot-level COA and SDS verification. We are finalising our laboratory documentation and will open the catalog shortly.', 'animus-labs-core' ),
 	);
