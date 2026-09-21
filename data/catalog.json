@@ -3,7 +3,7 @@
   "sku": "YPB.211",
   "name": "Sermorelin (10mg)",
   "category": "Peptides",
-  "price": 100.0,
+  "price": 88.0,
   "source": "Globally Sourced",
   "quantity": "10mg"
  },
@@ -19,7 +19,7 @@
   "sku": "YPB.213",
   "name": "BPC-157 (10mg)",
   "category": "Peptides",
-  "price": 100.0,
+  "price": 75.0,
   "source": "Globally Sourced",
   "quantity": "10mg"
  },
@@ -35,7 +35,7 @@
   "sku": "YPB.215",
   "name": "Thymosin Beta 4 (TB500) (10mg)",
   "category": "Peptides",
-  "price": 140.0,
+  "price": 85.0,
   "source": "Globally Sourced",
   "quantity": "10mg"
  },
@@ -51,7 +51,7 @@
   "sku": "YPB.217",
   "name": "Wolverine Blend - BPC-157 (10mg) / TB500 (10mg)",
   "category": "Research Blends",
-  "price": 180.0,
+  "price": 119.0,
   "source": "Globally Sourced",
   "quantity": "10mg"
  },
@@ -59,7 +59,7 @@
   "sku": "YPB.218",
   "name": "GLOW GHK-Cu (50mg) / BPC-157 (10mg) / TB500 (10mg)",
   "category": "Research Blends",
-  "price": 250.0,
+  "price": 149.0,
   "source": "Globally Sourced",
   "quantity": "10mg"
  },
@@ -91,7 +91,7 @@
   "sku": "YPB.222",
   "name": "GHK-Cu (100mg)",
   "category": "Peptides",
-  "price": 130.0,
+  "price": 89.0,
   "source": "Globally Sourced",
   "quantity": "100mg"
  },
@@ -99,7 +99,7 @@
   "sku": "YPB.223",
   "name": "NAD+ (500mg)",
   "category": "Peptides",
-  "price": 200.0,
+  "price": 99.0,
   "source": "Globally Sourced",
   "quantity": "500mg"
  },
@@ -131,7 +131,7 @@
   "sku": "YPB.227",
   "name": "MOTS-c (10mg)",
   "category": "Peptides",
-  "price": 200.0,
+  "price": 89.0,
   "source": "Globally Sourced",
   "quantity": "10mg"
  },
@@ -371,7 +371,7 @@
   "sku": "YPB.263",
   "name": "Ipamorelin (10mg)",
   "category": "Peptides",
-  "price": 120.0,
+  "price": 89.0,
   "source": "Globally Sourced",
   "quantity": "10mg"
  },
@@ -427,7 +427,7 @@
   "sku": "YPB.270",
   "name": "Melanotan 2 (10mg)",
   "category": "Peptides",
-  "price": 100.0,
+  "price": 69.0,
   "source": "Globally Sourced",
   "quantity": "10mg"
  },
@@ -459,7 +459,7 @@
   "sku": "YPB.274",
   "name": "PT-141 (10mg)",
   "category": "Peptides",
-  "price": 120.0,
+  "price": 79.0,
   "source": "Globally Sourced",
   "quantity": "10mg"
  },
@@ -491,7 +491,7 @@
   "sku": "YPB.279",
   "name": "Tesamorelin (10mg)",
   "category": "Peptides",
-  "price": 150.0,
+  "price": 89.0,
   "source": "Globally Sourced",
   "quantity": "10mg"
  },
@@ -619,7 +619,7 @@
   "sku": "YPB.109",
   "name": "GLOW GHK-Cu (45mg) / BPC-157 (10mg) / TB500 (10mg)",
   "category": "Research Blends",
-  "price": 165.0,
+  "price": 149.0,
   "source": "US Sourced",
   "quantity": "10mg"
  },
@@ -651,7 +651,7 @@
   "sku": "YPB.113",
   "name": "Thymosin Beta 4 (TB500) (10mg)",
   "category": "Peptides",
-  "price": 140.0,
+  "price": 89.0,
   "source": "US Sourced",
   "quantity": "10mg"
  },
@@ -659,7 +659,7 @@
   "sku": "YPB.114",
   "name": "Wolverine Blend - BPC-157 (10mg) / TB500 (10mg)",
   "category": "Research Blends",
-  "price": 170.0,
+  "price": 129.0,
   "source": "US Sourced",
   "quantity": "10mg"
  },
@@ -811,7 +811,7 @@
   "sku": "YPB.200",
   "name": "GLP-1 S (10mg)",
   "category": "Peptides",
-  "price": 74.0,
+  "price": 59.0,
   "source": "Globally Sourced",
   "quantity": "10mg"
  },
@@ -835,7 +835,7 @@
   "sku": "YPB.203",
   "name": "GLP-2 TZ (10mg)",
   "category": "Peptides",
-  "price": 74.0,
+  "price": 65.0,
   "source": "Globally Sourced",
   "quantity": "10mg"
  },
@@ -883,7 +883,7 @@
   "sku": "YPB.209",
   "name": "GLP-3 RT (10mg)",
   "category": "Peptides",
-  "price": 122.0,
+  "price": 89.0,
   "source": "Globally Sourced",
   "quantity": "10mg"
  },
