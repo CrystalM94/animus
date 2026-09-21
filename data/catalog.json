@@ -806,5 +806,133 @@
   "price": 231.0,
   "source": "US Sourced",
   "quantity": "500mcg"
+ },
+ {
+  "sku": "YPB.200",
+  "name": "GLP-1 S (10mg)",
+  "category": "Peptides",
+  "price": 74.0,
+  "source": "Globally Sourced",
+  "quantity": "10mg"
+ },
+ {
+  "sku": "YPB.201",
+  "name": "GLP-1 S (20mg)",
+  "category": "Peptides",
+  "price": 102.0,
+  "source": "Globally Sourced",
+  "quantity": "20mg"
+ },
+ {
+  "sku": "YPB.202",
+  "name": "GLP-1 S (30mg)",
+  "category": "Peptides",
+  "price": 129.0,
+  "source": "Globally Sourced",
+  "quantity": "30mg"
+ },
+ {
+  "sku": "YPB.203",
+  "name": "GLP-2 TZ (10mg)",
+  "category": "Peptides",
+  "price": 74.0,
+  "source": "Globally Sourced",
+  "quantity": "10mg"
+ },
+ {
+  "sku": "YPB.204",
+  "name": "GLP-2 TZ (20mg)",
+  "category": "Peptides",
+  "price": 122.0,
+  "source": "Globally Sourced",
+  "quantity": "20mg"
+ },
+ {
+  "sku": "YPB.205",
+  "name": "GLP-2 TZ (30mg)",
+  "category": "Peptides",
+  "price": 136.0,
+  "source": "Globally Sourced",
+  "quantity": "30mg"
+ },
+ {
+  "sku": "YPB.206",
+  "name": "GLP-2 TZ (40mg)",
+  "category": "Peptides",
+  "price": 226.0,
+  "source": "Globally Sourced",
+  "quantity": "40mg"
+ },
+ {
+  "sku": "YPB.207",
+  "name": "GLP-2 TZ (50mg)",
+  "category": "Peptides",
+  "price": 261.0,
+  "source": "Globally Sourced",
+  "quantity": "50mg"
+ },
+ {
+  "sku": "YPB.208",
+  "name": "GLP-2 TZ (60mg)",
+  "category": "Peptides",
+  "price": 288.0,
+  "source": "Globally Sourced",
+  "quantity": "60mg"
+ },
+ {
+  "sku": "YPB.209",
+  "name": "GLP-3 RT (10mg)",
+  "category": "Peptides",
+  "price": 122.0,
+  "source": "Globally Sourced",
+  "quantity": "10mg"
+ },
+ {
+  "sku": "YPB.210",
+  "name": "GLP-3 RT (20mg)",
+  "category": "Peptides",
+  "price": 171.0,
+  "source": "Globally Sourced",
+  "quantity": "20mg"
+ },
+ {
+  "sku": "YPB.234",
+  "name": "GLP-3 RT (30mg)",
+  "category": "Peptides",
+  "price": 208.0,
+  "source": "Globally Sourced",
+  "quantity": "30mg"
+ },
+ {
+  "sku": "YPB.235",
+  "name": "GLP-3 RT (40mg)",
+  "category": "Peptides",
+  "price": 260.0,
+  "source": "Globally Sourced",
+  "quantity": "40mg"
+ },
+ {
+  "sku": "YPB.236",
+  "name": "GLP-3 RT (50mg)",
+  "category": "Peptides",
+  "price": 308.0,
+  "source": "Globally Sourced",
+  "quantity": "50mg"
+ },
+ {
+  "sku": "YPB.239",
+  "name": "Cagrilintide (5mg) / GLP-1 S (5mg)",
+  "category": "Peptides",
+  "price": 133.0,
+  "source": "Globally Sourced",
+  "quantity": "5mg/5mg"
+ },
+ {
+  "sku": "YPB.240",
+  "name": "Cagrilintide (2.5mg) / GLP-1 S (2.5mg)",
+  "category": "Peptides",
+  "price": 90.0,
+  "source": "Globally Sourced",
+  "quantity": "2.5mg/2.5mg"
  }
 ]
