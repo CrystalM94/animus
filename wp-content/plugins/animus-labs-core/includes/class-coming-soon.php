@@ -97,6 +97,7 @@ class Animus_Coming_Soon {
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="robots" content="noindex, nofollow">
+	<meta name="google-site-verification" content="66Vj9iHXo2jsSj4afkcuPPCsqIH-_6fNNZerkWEnCeM" />
 	<title><?php echo esc_html( $title . ' — ' . get_bloginfo( 'name' ) ); ?></title>
 	<link rel="stylesheet" href="<?php echo esc_url( $css ); ?>">
 	<style>
