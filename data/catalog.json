@@ -592,30 +592,6 @@
     "quantity": "5ml Vial"
   },
   {
-    "sku": "YPB.106",
-    "name": "BPC-157 (5mg) (US Sourced)",
-    "category": "Peptides",
-    "price": 60.5,
-    "source": "US Sourced",
-    "quantity": "5mg"
-  },
-  {
-    "sku": "YPB.107",
-    "name": "BPC-157 (10mg) (US Sourced)",
-    "category": "Peptides",
-    "price": 82.5,
-    "source": "US Sourced",
-    "quantity": "10mg"
-  },
-  {
-    "sku": "YPB.108",
-    "name": "GHK-Cu (50mg) (US Sourced)",
-    "category": "Peptides",
-    "price": 55.0,
-    "source": "US Sourced",
-    "quantity": "50mg"
-  },
-  {
     "sku": "YPB.109",
     "name": "GLOW GHK-Cu (45mg) / BPC-157 (10mg) / TB500 (10mg)",
     "category": "Research Blends",
@@ -630,38 +606,6 @@
     "price": 62.5,
     "source": "US Sourced",
     "quantity": "5mg"
-  },
-  {
-    "sku": "YPB.111",
-    "name": "Selank (10mg) (US Sourced)",
-    "category": "Peptides",
-    "price": 61.25,
-    "source": "US Sourced",
-    "quantity": "10mg"
-  },
-  {
-    "sku": "YPB.112",
-    "name": "Sermorelin (10mg) (US Sourced)",
-    "category": "Peptides",
-    "price": 88.0,
-    "source": "US Sourced",
-    "quantity": "10mg"
-  },
-  {
-    "sku": "YPB.113",
-    "name": "Thymosin Beta 4 (TB500) (10mg) (US Sourced)",
-    "category": "Peptides",
-    "price": 89.0,
-    "source": "US Sourced",
-    "quantity": "10mg"
-  },
-  {
-    "sku": "YPB.114",
-    "name": "Wolverine Blend - BPC-157 (10mg) / TB500 (10mg) (US Sourced)",
-    "category": "Research Blends",
-    "price": 129.0,
-    "source": "US Sourced",
-    "quantity": "10mg"
   },
   {
     "sku": "YPB.116",
