@@ -1,0 +1,882 @@
+[
+  {
+    "sku": "YPB.211",
+    "name": "Sermorelin (10mg) (Global Sourced)",
+    "category": "Peptides",
+    "price": 88.0,
+    "source": "Globally Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.212",
+    "name": "BPC-157 (5mg) (Global Sourced)",
+    "category": "Peptides",
+    "price": 50.0,
+    "source": "Globally Sourced",
+    "quantity": "5mg"
+  },
+  {
+    "sku": "YPB.213",
+    "name": "BPC-157 (10mg) (Global Sourced)",
+    "category": "Peptides",
+    "price": 75.0,
+    "source": "Globally Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.214",
+    "name": "Thymosin Beta 4 (TB500) (5mg)",
+    "category": "Peptides",
+    "price": 75.0,
+    "source": "Globally Sourced",
+    "quantity": "5mg"
+  },
+  {
+    "sku": "YPB.215",
+    "name": "Thymosin Beta 4 (TB500) (10mg) (Global Sourced)",
+    "category": "Peptides",
+    "price": 85.0,
+    "source": "Globally Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.216",
+    "name": "Wolverine Blend - BPC-157 (5mg) / TB500 (5mg)",
+    "category": "Research Blends",
+    "price": 100.0,
+    "source": "Globally Sourced",
+    "quantity": "5mg"
+  },
+  {
+    "sku": "YPB.217",
+    "name": "Wolverine Blend - BPC-157 (10mg) / TB500 (10mg) (Global Sourced)",
+    "category": "Research Blends",
+    "price": 119.0,
+    "source": "Globally Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.218",
+    "name": "GLOW GHK-Cu (50mg) / BPC-157 (10mg) / TB500 (10mg)",
+    "category": "Research Blends",
+    "price": 149.0,
+    "source": "Globally Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.219",
+    "name": "CJC-1295 Without DAC (10mg)",
+    "category": "Peptides",
+    "price": 80.0,
+    "source": "Globally Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.220",
+    "name": "CJC-1295 With DAC (5mg)",
+    "category": "Peptides",
+    "price": 100.0,
+    "source": "Globally Sourced",
+    "quantity": "5mg"
+  },
+  {
+    "sku": "YPB.221",
+    "name": "GHK-Cu (50mg) (Global Sourced)",
+    "category": "Peptides",
+    "price": 80.0,
+    "source": "Globally Sourced",
+    "quantity": "50mg"
+  },
+  {
+    "sku": "YPB.222",
+    "name": "GHK-Cu (100mg)",
+    "category": "Peptides",
+    "price": 89.0,
+    "source": "Globally Sourced",
+    "quantity": "100mg"
+  },
+  {
+    "sku": "YPB.223",
+    "name": "NAD+ (500mg)",
+    "category": "Peptides",
+    "price": 99.0,
+    "source": "Globally Sourced",
+    "quantity": "500mg"
+  },
+  {
+    "sku": "YPB.224",
+    "name": "NAD+ (1000mg)",
+    "category": "Peptides",
+    "price": 300.0,
+    "source": "Globally Sourced",
+    "quantity": "1000mg"
+  },
+  {
+    "sku": "YPB.225",
+    "name": "Reconstitution Water (3ml)",
+    "category": "Reagents & Solvents",
+    "price": 10.0,
+    "source": "Globally Sourced",
+    "quantity": "3ml"
+  },
+  {
+    "sku": "YPB.226",
+    "name": "Reconstitution Water (10ml)",
+    "category": "Reagents & Solvents",
+    "price": 15.0,
+    "source": "Globally Sourced",
+    "quantity": "10ml"
+  },
+  {
+    "sku": "YPB.227",
+    "name": "MOTS-c (10mg)",
+    "category": "Peptides",
+    "price": 89.0,
+    "source": "Globally Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.228",
+    "name": "Selank (10mg) (Global Sourced)",
+    "category": "Peptides",
+    "price": 50.0,
+    "source": "Globally Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.229",
+    "name": "Semax (10mg)",
+    "category": "Peptides",
+    "price": 50.0,
+    "source": "Globally Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.230",
+    "name": "DSIP (15mg)",
+    "category": "Peptides",
+    "price": 120.0,
+    "source": "Globally Sourced",
+    "quantity": "15mg"
+  },
+  {
+    "sku": "YPB.231",
+    "name": "Thymosin Alpha 1 (TA1) (10mg)",
+    "category": "Peptides",
+    "price": 120.0,
+    "source": "Globally Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.232",
+    "name": "N-Acetyl Epitalon Amidate (5 mg)",
+    "category": "Peptides",
+    "price": 110.0,
+    "source": "Globally Sourced",
+    "quantity": "5 mg"
+  },
+  {
+    "sku": "YPB.233",
+    "name": "GDF-8 (1mg)",
+    "category": "Peptides",
+    "price": 240.0,
+    "source": "Globally Sourced",
+    "quantity": "1mg"
+  },
+  {
+    "sku": "YPB.237",
+    "name": "BPC 157 (20mg)",
+    "category": "Peptides",
+    "price": 180.0,
+    "source": "Globally Sourced",
+    "quantity": "20mg"
+  },
+  {
+    "sku": "YPB.238",
+    "name": "2X Blend CJC-1295 Without DAC (5mg) / Ipamorelin (5mg)",
+    "category": "Research Blends",
+    "price": 90.0,
+    "source": "Globally Sourced",
+    "quantity": "5mg"
+  },
+  {
+    "sku": "YPB.241",
+    "name": "Cagrilintide (10mg)",
+    "category": "Peptides",
+    "price": 150.0,
+    "source": "Globally Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.242",
+    "name": "5-amino-1mq (5mg)",
+    "category": "Peptides",
+    "price": 50.0,
+    "source": "Globally Sourced",
+    "quantity": "5mg"
+  },
+  {
+    "sku": "YPB.243",
+    "name": "SLU-PP-332 (5mg)",
+    "category": "Peptides",
+    "price": 110.0,
+    "source": "Globally Sourced",
+    "quantity": "5mg"
+  },
+  {
+    "sku": "YPB.244",
+    "name": "LL37 (5mg)",
+    "category": "Peptides",
+    "price": 120.0,
+    "source": "Globally Sourced",
+    "quantity": "5mg"
+  },
+  {
+    "sku": "YPB.245",
+    "name": "SS-31 (10mg)",
+    "category": "Peptides",
+    "price": 120.0,
+    "source": "Globally Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.246",
+    "name": "SS-31 (50mg)",
+    "category": "Peptides",
+    "price": 260.0,
+    "source": "Globally Sourced",
+    "quantity": "50mg"
+  },
+  {
+    "sku": "YPB.247",
+    "name": "5-amino-1mq (50mg)",
+    "category": "Peptides",
+    "price": 220.0,
+    "source": "Globally Sourced",
+    "quantity": "50mg"
+  },
+  {
+    "sku": "YPB.248",
+    "name": "AOD9604 (5mg)",
+    "category": "Peptides",
+    "price": 120.0,
+    "source": "Globally Sourced",
+    "quantity": "5mg"
+  },
+  {
+    "sku": "YPB.249",
+    "name": "ACE-031 (1mg)",
+    "category": "Peptides",
+    "price": 180.0,
+    "source": "Globally Sourced",
+    "quantity": "1mg"
+  },
+  {
+    "sku": "YPB.250",
+    "name": "AICAR (50mg)",
+    "category": "Peptides",
+    "price": 130.0,
+    "source": "Globally Sourced",
+    "quantity": "50mg"
+  },
+  {
+    "sku": "YPB.251",
+    "name": "B12 (10ml)",
+    "category": "Reagents & Solvents",
+    "price": 90.0,
+    "source": "Globally Sourced",
+    "quantity": "10ml"
+  },
+  {
+    "sku": "YPB.252",
+    "name": "DSIP (5mg)",
+    "category": "Peptides",
+    "price": 80.0,
+    "source": "Globally Sourced",
+    "quantity": "5mg"
+  },
+  {
+    "sku": "YPB.253",
+    "name": "Epitalon (10mg)",
+    "category": "Peptides",
+    "price": 100.0,
+    "source": "Globally Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.254",
+    "name": "Epitalon (50mg)",
+    "category": "Peptides",
+    "price": 150.0,
+    "source": "Globally Sourced",
+    "quantity": "50mg"
+  },
+  {
+    "sku": "YPB.255",
+    "name": "FOXO4 (10mg)",
+    "category": "Peptides",
+    "price": 320.0,
+    "source": "Globally Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.256",
+    "name": "HCG (10000iu)",
+    "category": "Peptides",
+    "price": 180.0,
+    "source": "Globally Sourced",
+    "quantity": "10000iu"
+  },
+  {
+    "sku": "YPB.257",
+    "name": "GHRP-6 Acetate (10mg)",
+    "category": "Peptides",
+    "price": 120.0,
+    "source": "Globally Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.258",
+    "name": "HMG (75iu)",
+    "category": "Peptides",
+    "price": 130.0,
+    "source": "Globally Sourced",
+    "quantity": "75iu"
+  },
+  {
+    "sku": "YPB.259",
+    "name": "Glutathione (1500mg)",
+    "category": "Peptides",
+    "price": 150.0,
+    "source": "Globally Sourced",
+    "quantity": "1500mg"
+  },
+  {
+    "sku": "YPB.261",
+    "name": "Hexarelin Acetate (5mg)",
+    "category": "Peptides",
+    "price": 130.0,
+    "source": "Globally Sourced",
+    "quantity": "5mg"
+  },
+  {
+    "sku": "YPB.262",
+    "name": "IGF-1LR3 (1mg)",
+    "category": "Peptides",
+    "price": 180.0,
+    "source": "Globally Sourced",
+    "quantity": "1mg"
+  },
+  {
+    "sku": "YPB.263",
+    "name": "Ipamorelin (10mg)",
+    "category": "Peptides",
+    "price": 89.0,
+    "source": "Globally Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.264",
+    "name": "KLOW - GHK-Cu (50mg) / KPV (10mg) / BPC-157 (10mg) / TB500 (10mg)",
+    "category": "Research Blends",
+    "price": 200.0,
+    "source": "Globally Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.265",
+    "name": "LYSINE-PROLINE-VALINE (10mg)",
+    "category": "Peptides",
+    "price": 120.0,
+    "source": "Globally Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.266",
+    "name": "KissPeptin (10mg)",
+    "category": "Peptides",
+    "price": 120.0,
+    "source": "Globally Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.267",
+    "name": "8X Blend L-Carnitine (20mg) / L-Arginine (20mg) / Methonine (25mg) / Inositol (50mg) / Choline (50mg) / B6 (25mg) / B5 (5mg) / B12 (1mg)",
+    "category": "Research Blends",
+    "price": 160.0,
+    "source": "Globally Sourced",
+    "quantity": "1mg"
+  },
+  {
+    "sku": "YPB.268",
+    "name": "4X Blend Methionine (15mg) / Choline Chloride (50mg) / Carnitine (50mg) / Dexpanthenol (5mg)",
+    "category": "Research Blends",
+    "price": 180.0,
+    "source": "Globally Sourced",
+    "quantity": "5mg"
+  },
+  {
+    "sku": "YPB.269",
+    "name": "Mazdutide (100mg)",
+    "category": "Peptides",
+    "price": 90.0,
+    "source": "Globally Sourced",
+    "quantity": "100mg"
+  },
+  {
+    "sku": "YPB.270",
+    "name": "Melanotan 2 (10mg)",
+    "category": "Peptides",
+    "price": 69.0,
+    "source": "Globally Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.271",
+    "name": "MOTS-c (40mg)",
+    "category": "Peptides",
+    "price": 200.0,
+    "source": "Globally Sourced",
+    "quantity": "40mg"
+  },
+  {
+    "sku": "YPB.272",
+    "name": "Snap-8 (10mg)",
+    "category": "Peptides",
+    "price": 100.0,
+    "source": "Globally Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.273",
+    "name": "Pinealon (20mg)",
+    "category": "Peptides",
+    "price": 120.0,
+    "source": "Globally Sourced",
+    "quantity": "20mg"
+  },
+  {
+    "sku": "YPB.274",
+    "name": "PT-141 (10mg)",
+    "category": "Peptides",
+    "price": 79.0,
+    "source": "Globally Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.275",
+    "name": "PNC-27 (10mg)",
+    "category": "Peptides",
+    "price": 220.0,
+    "source": "Globally Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.277",
+    "name": "ARA-290 (10mg)",
+    "category": "Peptides",
+    "price": 150.0,
+    "source": "Globally Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.278",
+    "name": "Survodutide (10mg)",
+    "category": "Peptides",
+    "price": 230.0,
+    "source": "Globally Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.279",
+    "name": "Tesamorelin (10mg)",
+    "category": "Peptides",
+    "price": 89.0,
+    "source": "Globally Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.280",
+    "name": "Thymalin (10mg)",
+    "category": "Peptides",
+    "price": 130.0,
+    "source": "Globally Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.281",
+    "name": "VIP10 (10mg)",
+    "category": "Peptides",
+    "price": 190.0,
+    "source": "Globally Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.282",
+    "name": "GHRP-6 Acetate (5mg)",
+    "category": "Peptides",
+    "price": 110.0,
+    "source": "Globally Sourced",
+    "quantity": "5mg"
+  },
+  {
+    "sku": "YPB.283",
+    "name": "Glutathione (600mg)",
+    "category": "Peptides",
+    "price": 160.0,
+    "source": "Globally Sourced",
+    "quantity": "600mg"
+  },
+  {
+    "sku": "YPB.285",
+    "name": "IGF-1LR3 (0.1mg)",
+    "category": "Peptides",
+    "price": 100.0,
+    "source": "Globally Sourced",
+    "quantity": "0.1mg"
+  },
+  {
+    "sku": "YPB.286",
+    "name": "IGF-DES (0.1mg)",
+    "category": "Peptides",
+    "price": 140.0,
+    "source": "Globally Sourced",
+    "quantity": "0.1mg"
+  },
+  {
+    "sku": "YPB.287",
+    "name": "GLP-3 RZ (60mg)",
+    "category": "Peptides",
+    "price": 589.18,
+    "source": "Globally Sourced",
+    "quantity": "60mg"
+  },
+  {
+    "sku": "YPB.288",
+    "name": "Tesamorelin (20mg)",
+    "category": "Peptides",
+    "price": 285.0,
+    "source": "Globally Sourced",
+    "quantity": "20mg"
+  },
+  {
+    "sku": "YPB.289",
+    "name": "Reconstitution Water w/BA (10ml)",
+    "category": "Reagents & Solvents",
+    "price": 15.0,
+    "source": "Globally Sourced",
+    "quantity": "10ml"
+  },
+  {
+    "sku": "YPB.290",
+    "name": "Reconstitution Water w/BA (30ml)",
+    "category": "Reagents & Solvents",
+    "price": 24.0,
+    "source": "Globally Sourced",
+    "quantity": "30ml"
+  },
+  {
+    "sku": "YPB.100",
+    "name": "4X Blend GHRP-2 (5mg) / Tesamorelin (5mg) / MGF (500mcg) / Ipamorelin (2.5mg)",
+    "category": "Research Blends",
+    "price": 110.0,
+    "source": "US Sourced",
+    "quantity": "2.5mg"
+  },
+  {
+    "sku": "YPB.101",
+    "name": "NAD+ (1000mg) Biofermented (5ml Vial)",
+    "category": "Peptides",
+    "price": 247.5,
+    "source": "US Sourced",
+    "quantity": "5ml Vial"
+  },
+  {
+    "sku": "YPB.109",
+    "name": "GLOW GHK-Cu (45mg) / BPC-157 (10mg) / TB500 (10mg)",
+    "category": "Research Blends",
+    "price": 149.0,
+    "source": "US Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.110",
+    "name": "PT-141 (5mg)",
+    "category": "Peptides",
+    "price": 62.5,
+    "source": "US Sourced",
+    "quantity": "5mg"
+  },
+  {
+    "sku": "YPB.116",
+    "name": "5-Amino-1mq (100mg) x 30 Tablets",
+    "category": "Oral Research Compounds",
+    "price": 225.5,
+    "source": "US Sourced",
+    "quantity": "100mg"
+  },
+  {
+    "sku": "YPB.117",
+    "name": "5-Amino-1mq (30mg) x 60 Tablets",
+    "category": "Oral Research Compounds",
+    "price": 214.5,
+    "source": "US Sourced",
+    "quantity": "30mg"
+  },
+  {
+    "sku": "YPB.118",
+    "name": "5-Amino-1mq (15mg) x 60 Tablets",
+    "category": "Oral Research Compounds",
+    "price": 148.5,
+    "source": "US Sourced",
+    "quantity": "15mg"
+  },
+  {
+    "sku": "YPB.119",
+    "name": "5-Amino-1mq (50mg) / SLU-PP-332 (1mg) x 30 Tablets",
+    "category": "Oral Research Compounds",
+    "price": 324.5,
+    "source": "US Sourced",
+    "quantity": "1mg"
+  },
+  {
+    "sku": "YPB.120",
+    "name": "BPC-157 (500mcg) x 30 Tablets",
+    "category": "Oral Research Compounds",
+    "price": 104.5,
+    "source": "US Sourced",
+    "quantity": "500mcg"
+  },
+  {
+    "sku": "YPB.121",
+    "name": "Brain Blend - Dihexa (10mg) / Tesofensine (250mcg) / BPC-157 (125mcg) x 60 Tablets",
+    "category": "Oral Research Compounds",
+    "price": 383.9,
+    "source": "US Sourced",
+    "quantity": "125mcg"
+  },
+  {
+    "sku": "YPB.122",
+    "name": "Dihexa (10mg x 30 Tablets",
+    "category": "Oral Research Compounds",
+    "price": 121.0,
+    "source": "US Sourced",
+    "quantity": ""
+  },
+  {
+    "sku": "YPB.123",
+    "name": "Dihexa (8mg) x 30 Tablets",
+    "category": "Oral Research Compounds",
+    "price": 121.0,
+    "source": "US Sourced",
+    "quantity": "8mg"
+  },
+  {
+    "sku": "YPB.129",
+    "name": "Ivermectin (12mg) x 60 Tablets",
+    "category": "Oral Research Compounds",
+    "price": 88.0,
+    "source": "US Sourced",
+    "quantity": "12mg"
+  },
+  {
+    "sku": "YPB.130",
+    "name": "Methylene Blue (25mg) x 50 Tablets",
+    "category": "Oral Research Compounds",
+    "price": 102.3,
+    "source": "US Sourced",
+    "quantity": "25mg"
+  },
+  {
+    "sku": "YPB.131",
+    "name": "MK-677 (25mg) x 30 Tablets",
+    "category": "Oral Research Compounds",
+    "price": 154.0,
+    "source": "US Sourced",
+    "quantity": "25mg"
+  },
+  {
+    "sku": "YPB.132",
+    "name": "SLU-PP-332 (1mg) x 60 Tablets",
+    "category": "Oral Research Compounds",
+    "price": 247.5,
+    "source": "US Sourced",
+    "quantity": "1mg"
+  },
+  {
+    "sku": "YPB.133",
+    "name": "SLU-PP-332 (250mcg) x 60 Tablets",
+    "category": "Oral Research Compounds",
+    "price": 88.0,
+    "source": "US Sourced",
+    "quantity": "250mcg"
+  },
+  {
+    "sku": "YPB.134",
+    "name": "Weight Loss Blend - SLU-PP-332 (250mcg) / 5-Amino-1mq (25mg) / BPC-157 (125mcg) x 90 Tablets",
+    "category": "Oral Research Compounds",
+    "price": 383.9,
+    "source": "US Sourced",
+    "quantity": "125mcg"
+  },
+  {
+    "sku": "YPB.135",
+    "name": "Tesofensine (250mcg) / Dihexa (5mg) x 60 Tablets",
+    "category": "Oral Research Compounds",
+    "price": 275.0,
+    "source": "US Sourced",
+    "quantity": "5mg"
+  },
+  {
+    "sku": "YPB.136",
+    "name": "Tesofensine (500mcg) Capsules x 100 Capsules",
+    "category": "Oral Research Compounds",
+    "price": 550.0,
+    "source": "US Sourced",
+    "quantity": "500mcg"
+  },
+  {
+    "sku": "YPB.137",
+    "name": "Tesofensine (500mcg) Capsules x 30 Capsules",
+    "category": "Oral Research Compounds",
+    "price": 220.0,
+    "source": "US Sourced",
+    "quantity": "500mcg"
+  },
+  {
+    "sku": "YPB.138",
+    "name": "VIP (2mg) / BPC-157 (500mcg) x 30 Tablets",
+    "category": "Oral Research Compounds",
+    "price": 231.0,
+    "source": "US Sourced",
+    "quantity": "500mcg"
+  },
+  {
+    "sku": "YPB.200",
+    "name": "GLP-1 S (10mg)",
+    "category": "Peptides",
+    "price": 59.0,
+    "source": "Globally Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.201",
+    "name": "GLP-1 S (20mg)",
+    "category": "Peptides",
+    "price": 102.0,
+    "source": "Globally Sourced",
+    "quantity": "20mg"
+  },
+  {
+    "sku": "YPB.202",
+    "name": "GLP-1 S (30mg)",
+    "category": "Peptides",
+    "price": 129.0,
+    "source": "Globally Sourced",
+    "quantity": "30mg"
+  },
+  {
+    "sku": "YPB.203",
+    "name": "GLP-2 TZ (10mg)",
+    "category": "Peptides",
+    "price": 65.0,
+    "source": "Globally Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.204",
+    "name": "GLP-2 TZ (20mg)",
+    "category": "Peptides",
+    "price": 122.0,
+    "source": "Globally Sourced",
+    "quantity": "20mg"
+  },
+  {
+    "sku": "YPB.205",
+    "name": "GLP-2 TZ (30mg)",
+    "category": "Peptides",
+    "price": 136.0,
+    "source": "Globally Sourced",
+    "quantity": "30mg"
+  },
+  {
+    "sku": "YPB.206",
+    "name": "GLP-2 TZ (40mg)",
+    "category": "Peptides",
+    "price": 226.0,
+    "source": "Globally Sourced",
+    "quantity": "40mg"
+  },
+  {
+    "sku": "YPB.207",
+    "name": "GLP-2 TZ (50mg)",
+    "category": "Peptides",
+    "price": 261.0,
+    "source": "Globally Sourced",
+    "quantity": "50mg"
+  },
+  {
+    "sku": "YPB.208",
+    "name": "GLP-2 TZ (60mg)",
+    "category": "Peptides",
+    "price": 288.0,
+    "source": "Globally Sourced",
+    "quantity": "60mg"
+  },
+  {
+    "sku": "YPB.209",
+    "name": "GLP-3 RT (10mg)",
+    "category": "Peptides",
+    "price": 89.0,
+    "source": "Globally Sourced",
+    "quantity": "10mg"
+  },
+  {
+    "sku": "YPB.210",
+    "name": "GLP-3 RT (20mg)",
+    "category": "Peptides",
+    "price": 171.0,
+    "source": "Globally Sourced",
+    "quantity": "20mg"
+  },
+  {
+    "sku": "YPB.234",
+    "name": "GLP-3 RT (30mg)",
+    "category": "Peptides",
+    "price": 208.0,
+    "source": "Globally Sourced",
+    "quantity": "30mg"
+  },
+  {
+    "sku": "YPB.235",
+    "name": "GLP-3 RT (40mg)",
+    "category": "Peptides",
+    "price": 260.0,
+    "source": "Globally Sourced",
+    "quantity": "40mg"
+  },
+  {
+    "sku": "YPB.236",
+    "name": "GLP-3 RT (50mg)",
+    "category": "Peptides",
+    "price": 308.0,
+    "source": "Globally Sourced",
+    "quantity": "50mg"
+  },
+  {
+    "sku": "YPB.239",
+    "name": "Cagrilintide (5mg) / GLP-1 S (5mg)",
+    "category": "Peptides",
+    "price": 133.0,
+    "source": "Globally Sourced",
+    "quantity": "5mg/5mg"
+  },
+  {
+    "sku": "YPB.240",
+    "name": "Cagrilintide (2.5mg) / GLP-1 S (2.5mg)",
+    "category": "Peptides",
+    "price": 90.0,
+    "source": "Globally Sourced",
+    "quantity": "2.5mg/2.5mg"
+  }
+]
