@@ -98,6 +98,8 @@ class Animus_Coming_Soon {
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="robots" content="noindex, nofollow">
 	<meta name="google-site-verification" content="66Vj9iHXo2jsSj4afkcuPPCsqIH-_6fNNZerkWEnCeM" />
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18466644327"></script>
+	<script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-18466644327');</script>
 	<title><?php echo esc_html( $title . ' — ' . get_bloginfo( 'name' ) ); ?></title>
 	<link rel="stylesheet" href="<?php echo esc_url( $css ); ?>">
 	<style>

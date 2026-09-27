@@ -83,3 +83,13 @@ add_filter(
 		return $classes;
 	}
 );
+
+add_action(
+	'wp_head',
+	function () {
+		echo '<meta name="google-site-verification" content="66Vj9iHXo2jsSj4afkcuPPCsqIH-_6fNNZerkWEnCeM" />' . "\n";
+		echo '<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18466644327"></script>' . "\n";
+		echo '<script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "AW-18466644327");</script>' . "\n";
+	},
+	1
+);
