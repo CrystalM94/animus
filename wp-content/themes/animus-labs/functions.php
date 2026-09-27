@@ -93,3 +93,18 @@ add_action(
 	},
 	1
 );
+
+add_action(
+	'woocommerce_thankyou',
+	function ( $order_id ) {
+		$order = wc_get_order( $order_id );
+		if ( ! $order ) {
+			return;
+		}
+		printf(
+			'<script>gtag("event", "conversion", {"send_to": "AW-18466644327/AYjXCNuWx4AdEOfCyuVE", "value": %s, "currency": "USD", "transaction_id": "%s"});</script>' . "\n",
+			esc_js( $order->get_total() ),
+			esc_js( $order->get_order_number() )
+		);
+	}
+);
