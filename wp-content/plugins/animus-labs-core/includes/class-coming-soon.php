@@ -29,6 +29,9 @@ class Animus_Coming_Soon {
 		if ( self::has_preview_access() ) {
 			return false;
 		}
+		if ( self::is_search_crawler() ) {
+			return false;
+		}
 		if ( is_admin() || wp_doing_ajax() || wp_doing_cron() || is_feed() || is_robots() ) {
 			return false;
 		}
@@ -62,6 +65,29 @@ class Animus_Coming_Soon {
 		if ( isset( $_GET['animus_preview'] ) && hash_equals( $key, sanitize_text_field( wp_unslash( $_GET['animus_preview'] ) ) ) ) {
 			setcookie( 'animus_preview', $key, time() + MONTH_IN_SECONDS, COOKIEPATH, COOKIE_DOMAIN, is_ssl(), true );
 			return true;
+		}
+		return false;
+	}
+
+	/**
+	 * Let search-engine and ad-platform crawlers through so landing pages
+	 * can be indexed/reviewed while the wall is up for human visitors.
+	 */
+	private static function is_search_crawler() {
+		$ua = isset( $_SERVER['HTTP_USER_AGENT'] ) ? wp_unslash( $_SERVER['HTTP_USER_AGENT'] ) : '';
+		$bots = array(
+			'Googlebot',
+			'AdsBot-Google',
+			'FeedFetcher-Google',
+			'Mediapartners-Google',
+			'Googlebot-Image',
+			'GoogleShopping',
+			'bingbot',
+		);
+		foreach ( $bots as $bot ) {
+			if ( false !== stripos( $ua, $bot ) ) {
+				return true;
+			}
 		}
 		return false;
 	}
