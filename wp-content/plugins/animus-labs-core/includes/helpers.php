@@ -42,6 +42,16 @@ function animus_core_default_settings() {
 		'coming_soon_key'     => '',
 		'coming_soon_title'   => __( 'Animus Labs is coming soon', 'animus-labs-core' ),
 		'coming_soon_body'    => __( 'Documented research compounds with lot-level COA and SDS verification. We are finalising our laboratory documentation and will open the catalog shortly.', 'animus-labs-core' ),
+		'checkout_locked'     => 'no',
+		'checkout_locked_msg' => __( 'Ordering opens soon — the catalog is viewable now, and checkout unlocks at launch.', 'animus-labs-core' ),
+		'launch_headline'     => __( 'Grand Opening — Black Friday, November 27', 'animus-labs-core' ),
+		'launch_subline'      => __( 'Join the launch list for early access and opening-week pricing on documented research compounds.', 'animus-labs-core' ),
+		'signup_notify_email' => '',
+		'signup_sms_to'       => '',
+		'twilio_sid'          => '',
+		'twilio_token'        => '',
+		'twilio_from'         => '',
+		'sms_to'              => '',
 	);
 }
 
