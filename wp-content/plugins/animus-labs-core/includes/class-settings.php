@@ -116,6 +116,7 @@ class Animus_Settings {
 			'sms_to'             => array( __( 'Your phone for signup texts, e.g. +19452868982', 'animus-labs-core' ), 'text' ),
 			'brevo_api_key'      => array( __( 'Brevo API key (xkeysib-...) — powers all site email + text alerts', 'animus-labs-core' ), 'text' ),
 			'brevo_from_email'   => array( __( 'Brevo sender email (must be a verified Brevo sender; blank = admin email)', 'animus-labs-core' ), 'text' ),
+			'ntfy_topic'         => array( __( 'ntfy.sh topic for signup push alerts (subscribe in the ntfy app)', 'animus-labs-core' ), 'text' ),
 		);
 		?>
 		<div class="wrap">

@@ -54,6 +54,7 @@ function animus_core_default_settings() {
 		'sms_to'              => '',
 		'brevo_api_key'       => '',
 		'brevo_from_email'    => '',
+		'ntfy_topic'          => '',
 	);
 }
 

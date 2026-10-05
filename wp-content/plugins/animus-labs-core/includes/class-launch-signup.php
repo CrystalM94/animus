@@ -135,6 +135,18 @@ class Animus_Launch_Signup {
 	private static function notify( $name, $email ) {
 		$msg = sprintf( '%s signed up for launch day (%s)', $name, $email );
 
+		$topic = animus_core_setting( 'ntfy_topic', '' );
+		if ( $topic ) {
+			wp_remote_post(
+				'https://ntfy.sh/' . rawurlencode( $topic ),
+				array(
+					'body'    => $msg,
+					'headers' => array( 'Title' => 'Animus Labs signup', 'Priority' => 'high' ),
+					'timeout' => 10,
+				)
+			);
+		}
+
 		$sid   = animus_core_setting( 'twilio_sid', '' );
 		$token = animus_core_setting( 'twilio_token', '' );
 		$from  = animus_core_setting( 'twilio_from', '' );
