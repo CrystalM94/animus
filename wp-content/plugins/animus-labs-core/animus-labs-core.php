@@ -30,6 +30,7 @@ require_once ANIMUS_CORE_DIR . 'includes/class-coming-soon.php';
 require_once ANIMUS_CORE_DIR . 'includes/class-launch-lock.php';
 require_once ANIMUS_CORE_DIR . 'includes/class-launch-signup.php';
 require_once ANIMUS_CORE_DIR . 'includes/class-seo.php';
+require_once ANIMUS_CORE_DIR . 'includes/class-mail.php';
 
 register_activation_hook( __FILE__, 'animus_core_activate' );
 
@@ -64,5 +65,6 @@ add_action(
 		Animus_Launch_Lock::init();
 		Animus_Launch_Signup::init();
 		Animus_SEO::init();
+		Animus_Mail::init();
 	}
 );

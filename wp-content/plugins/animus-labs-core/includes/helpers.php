@@ -52,6 +52,8 @@ function animus_core_default_settings() {
 		'twilio_token'        => '',
 		'twilio_from'         => '',
 		'sms_to'              => '',
+		'brevo_api_key'       => '',
+		'brevo_from_email'    => '',
 	);
 }
 

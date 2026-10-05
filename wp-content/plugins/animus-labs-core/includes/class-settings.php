@@ -114,6 +114,8 @@ class Animus_Settings {
 			'twilio_token'       => array( __( 'Twilio Auth Token', 'animus-labs-core' ), 'text' ),
 			'twilio_from'        => array( __( 'Twilio sender number, e.g. +15551234567', 'animus-labs-core' ), 'text' ),
 			'sms_to'             => array( __( 'Your phone for signup texts, e.g. +19452868982', 'animus-labs-core' ), 'text' ),
+			'brevo_api_key'      => array( __( 'Brevo API key (xkeysib-...) — powers all site email + text alerts', 'animus-labs-core' ), 'text' ),
+			'brevo_from_email'   => array( __( 'Brevo sender email (must be a verified Brevo sender; blank = admin email)', 'animus-labs-core' ), 'text' ),
 		);
 		?>
 		<div class="wrap">
