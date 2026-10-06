@@ -106,6 +106,17 @@ class Animus_Settings {
 			'verification_intro' => array( __( 'Lot verification intro', 'animus-labs-core' ), 'textarea' ),
 			'supplier_verify_url' => array( __( 'Lab-partner verification URL (fallback link when a lot is not in our records)', 'animus-labs-core' ), 'text' ),
 			'order_lot_note'     => array( __( 'Order lot traceability note', 'animus-labs-core' ), 'textarea' ),
+			'launch_headline'    => array( __( 'Launch banner headline', 'animus-labs-core' ), 'text' ),
+			'launch_subline'     => array( __( 'Launch banner sub-line', 'animus-labs-core' ), 'textarea' ),
+			'signup_notify_email' => array( __( 'Launch signup notification email (blank = site admin email)', 'animus-labs-core' ), 'text' ),
+			'signup_sms_to'      => array( __( 'Signup SMS via email-to-text gateway, e.g. 9452868982@txt.att.net (used when Twilio is not configured)', 'animus-labs-core' ), 'text' ),
+			'twilio_sid'         => array( __( 'Twilio Account SID', 'animus-labs-core' ), 'text' ),
+			'twilio_token'       => array( __( 'Twilio Auth Token', 'animus-labs-core' ), 'text' ),
+			'twilio_from'        => array( __( 'Twilio sender number, e.g. +15551234567', 'animus-labs-core' ), 'text' ),
+			'sms_to'             => array( __( 'Your phone for signup texts, e.g. +19452868982', 'animus-labs-core' ), 'text' ),
+			'brevo_api_key'      => array( __( 'Brevo API key (xkeysib-...) — powers all site email + text alerts', 'animus-labs-core' ), 'text' ),
+			'brevo_from_email'   => array( __( 'Brevo sender email (must be a verified Brevo sender; blank = admin email)', 'animus-labs-core' ), 'text' ),
+			'ntfy_topic'         => array( __( 'ntfy.sh topic for signup push alerts (subscribe in the ntfy app)', 'animus-labs-core' ), 'text' ),
 		);
 		?>
 		<div class="wrap">

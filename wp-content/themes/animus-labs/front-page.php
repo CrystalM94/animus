@@ -33,6 +33,19 @@ get_header();
 		<?php animus_ruo_notice( 'banner' ); ?>
 	</section>
 
+	<section class="animus-section animus-launch">
+		<div class="animus-wrap animus-launch__inner">
+			<p class="animus-kicker"><?php esc_html_e( 'Grand opening', 'animus-labs' ); ?></p>
+			<h2><?php echo esc_html( function_exists( 'animus_core_setting' ) ? animus_core_setting( 'launch_headline', 'Grand Opening — Black Friday, November 27' ) : 'Grand Opening — Black Friday, November 27' ); ?></h2>
+			<p><?php echo esc_html( function_exists( 'animus_core_setting' ) ? animus_core_setting( 'launch_subline', '' ) : '' ); ?></p>
+			<?php
+			if ( shortcode_exists( 'animus_launch_signup' ) ) {
+				echo do_shortcode( '[animus_launch_signup]' );
+			}
+			?>
+		</div>
+	</section>
+
 	<?php if ( function_exists( 'wc_get_products' ) ) : ?>
 	<section class="animus-section animus-wrap">
 		<header class="animus-section__head">

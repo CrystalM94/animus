@@ -1020,3 +1020,50 @@ input:focus, select:focus, textarea:focus {
 	.animus-card:hover,
 	.animus-btn:hover { transform: none; }
 }
+
+/* --- pre-launch checkout lock notice --- */
+.animus-launch-lock-notice {
+	border: 1px solid var(--al-line);
+	background: var(--al-accent-wash);
+	color: var(--al-silver);
+	padding: 14px 18px;
+	border-radius: 4px;
+	font-size: 0.95rem;
+	letter-spacing: 0.02em;
+}
+
+/* --- grand-opening launch band --- */
+.animus-launch {
+	background: linear-gradient(180deg, var(--al-accent-wash), transparent);
+	border-top: 1px solid var(--al-line);
+	border-bottom: 1px solid var(--al-line);
+	padding: 48px 0;
+}
+.animus-launch__inner { text-align: center; max-width: 640px; margin: 0 auto; }
+.animus-launch__inner h2 { margin: 8px 0 10px; }
+.animus-launch__inner > p { color: var(--al-stone); margin: 0 0 22px; }
+
+.animus-signup {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.animus-signup__input {
+	flex: 1 1 200px;
+	max-width: 260px;
+	background: var(--al-panel);
+	border: 1px solid var(--al-line);
+	border-radius: 4px;
+	color: var(--al-offwhite);
+	padding: 12px 14px;
+	font-size: 1rem;
+}
+.animus-signup__input:focus {
+	outline: 2px solid var(--al-accent);
+	border-color: var(--al-accent);
+}
+.animus-signup__hp { position: absolute; left: -9999px; }
+.animus-signup__msg { margin: 14px 0 0; color: var(--al-silver); }
+.animus-signup__msg--ok { color: var(--al-ok); }
+.animus-signup__msg--err { color: var(--al-danger); }
