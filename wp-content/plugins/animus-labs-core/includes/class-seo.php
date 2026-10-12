@@ -77,6 +77,13 @@ class Animus_SEO {
 				return $src;
 			}
 		}
+		$logo_id = get_theme_mod( 'custom_logo' );
+		if ( $logo_id ) {
+			$src = wp_get_attachment_image_url( $logo_id, 'large' );
+			if ( $src ) {
+				return $src;
+			}
+		}
 		return '';
 	}
 
