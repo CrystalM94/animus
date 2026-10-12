@@ -154,6 +154,19 @@ class Animus_Settings {
 					</tr>
 
 					<tr>
+						<th scope="row"><?php esc_html_e( 'Checkout lock', 'animus-labs-core' ); ?></th>
+						<td>
+							<label for="animus-checkout-lock">
+								<input type="checkbox" id="animus-checkout-lock" name="<?php echo esc_attr( self::OPTION ); ?>[checkout_locked]" value="yes" <?php checked( 'yes', isset( $opts['checkout_locked'] ) ? $opts['checkout_locked'] : 'no' ); ?>>
+								<?php esc_html_e( 'Disable purchasing — catalog stays viewable, checkout locked', 'animus-labs-core' ); ?>
+							</label>
+							<p class="description">
+								<?php esc_html_e( 'Use this instead of the coming-soon wall when the store must stay visible to crawlers but orders are not open yet.', 'animus-labs-core' ); ?>
+							</p>
+						</td>
+					</tr>
+
+					<tr>
 						<th scope="row"><?php esc_html_e( 'Age / researcher gate', 'animus-labs-core' ); ?></th>
 						<td>
 							<label for="animus-age-gate">
